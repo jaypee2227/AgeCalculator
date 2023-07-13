@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #e52214, #0845fc);
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+}
+
+#container h1{
+    color: #1a181a;
+    font-size: 6em;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+#container h1 span{
+    color:  #fff;
+}
