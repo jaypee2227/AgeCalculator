@@ -19,10 +19,45 @@ body{
 #container h1{
     color: #1a181a;
     font-size: 6em;
-    margin-top: 30px;
-    padding-left: 50px;
+    margin-top: 80px;
+    padding-left: 80px;
 }
 
 #container h1 span{
     color:  #fff;
+}
+
+#wrapper{
+    margin-top: 50px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+#date-input{
+    width: 500px;
+    padding: 30px;
+    border: none;
+    background-color: #ccc;
+    font-size: 3em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn{
+    width: 200px;
+    margin-left: 20px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 2em;
+    background-color: #370ca3b5;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 50px;
+    padding-left: 80px;
+    color: #1a181a;
+    font-size: 3em;
 }
